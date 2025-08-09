@@ -1,0 +1,3 @@
+P-10: We encrypt all databases using AES-256 at rest.
+P-11: We rotate keys annually.
+P-12: Access reviews for admin accounts occur monthly.

@@ -1,0 +1,3 @@
+R-1: Encrypt personal data at rest.
+R-2: Rotate encryption keys at least every 90 days.
+R-3: Perform quarterly access reviews for privileged accounts.

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+.env.*
+.cache/
+dist/
+build/
+
+# Tools / notebooks
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# App artifacts
+indexes/
+outputs/
+data/*/raw/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.streamlit/

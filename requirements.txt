@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-openai
+pydantic
+tiktoken
+pypdf
+python-docx
+python-dotenv
+faiss-cpu
+sentence-transformers
+vllm
+transformers
+accelerate
