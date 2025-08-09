@@ -1,0 +1,15 @@
+name: "📌 Task"
+description: A technical task
+labels: ["type/task", "priority/P3"]
+body:
+  - type: textarea
+    id: summary
+    attributes: { label: Task summary, placeholder: "Implement splitter..." }
+    validations: { required: true }
+  - type: textarea
+    id: done
+    attributes:
+      {
+        label: Definition of done,
+        value: "- [ ] Tests pass\n- [ ] Docs updated if needed",
+      }

@@ -1,0 +1,23 @@
+name: "🐛 Bug report"
+description: File a bug
+labels: ["type/bug", "priority/P2"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      {
+        label: What happened?,
+        description: What’s the bug and what did you expect?,
+      }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce, value: "1.\n2.\n3." }
+  - type: dropdown
+    id: area
+    attributes:
+      {
+        label: Area,
+        options:
+          [area/frontend, area/backend, area/core, area/data, area/devops],
+      }
